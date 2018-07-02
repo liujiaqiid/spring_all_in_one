@@ -1,4 +1,5 @@
 package hello.greeting;
+
 /**
 * This is a resource representation class
 * POJO
