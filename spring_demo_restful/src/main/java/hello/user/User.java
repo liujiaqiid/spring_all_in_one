@@ -15,6 +15,12 @@ public class User {
 
     private String email;
 
+    protected User(){}
+    public User(String name, String email){
+        this.name = name;
+        this.email = email;
+    }
+
     public Integer getId() {
         return id;
     }
