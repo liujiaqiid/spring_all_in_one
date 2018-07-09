@@ -10,13 +10,13 @@ import org.springframework.util.Assert;
  * There is also a CommandLineRunner that injects the BookingService and showcases various transactional use cases.
  */
 @Component
-class AppRunner implements CommandLineRunner {
+class BookingRunner implements CommandLineRunner {
 
-    private final static Logger logger = LoggerFactory.getLogger(AppRunner.class);
+    private final static Logger logger = LoggerFactory.getLogger(BookingRunner.class);
 
     private final BookingService bookingService;
 
-    public AppRunner(BookingService bookingService) {
+    public BookingRunner(BookingService bookingService) {
         this.bookingService = bookingService;
     }
 

@@ -38,28 +38,48 @@ Learn how to build an application that uses Spring Integration to fetch data, pr
 Learn how to wrap key parts of code with transactions.    
 You’ll build a simple JDBC application wherein you make database operations transactional without having to write specialized JDBC code.
 ```bash
-
+# hello.booking
 ```
-
-
 
 - [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 Learn how to work with JPA data persistence using Spring Data JPA.
+```bash
+# You’ll build an application that stores Customer POJOs in a memory-based database.
+# hello.customer
+```
 
 - [Accessing Data with MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/)
 Learn how to persist data in MongoDB
 
 - [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 Learn how to create a web page with Spring MVC and Thymeleaf.
+```bash
+# hello.web
+```
 
-- [Converting a Spring Boot JAR Application to a WAR](https://spring.io/guides/gs/convert-jar-to-war/)
+- [~~Converting a Spring Boot JAR Application to a WAR~~](https://spring.io/guides/gs/convert-jar-to-war/)
 Learn how to convert your Spring Boot JAR-based application to a WAR file.
 
 - [Creating Asynchronous Methods](https://spring.io/guides/gs/async-method/)
 Learn how to create asynchronous service methods.
+```bash
+# You’ll build a lookup service that queries GitHub user information and retrieves data through GitHub’s API. 
+# One approach to scaling services is to run expensive jobs in the background and wait for the results using Java’s CompletableFuture interface. 
+# Java’s CompletableFuture is an evolution from the regular Future. It makes it easy to pipeline multiple asynchronous operations merging them into a single asynchronous computation.
+
+# hello.async
+
+```
 
 - [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
    Learn how to create and submit a web form with Spring.
+```bash
+# In this guide, you will build a web form which will be accessible at the following URL:
+# http://localhost:8080/greeting
+# Viewing this page in a browser will display the form. You can submit a greeting by populating the id and content form fields. A results page will be displayed when the form is submitted.
+
+
+```
 
 - [Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot/)
    Learn how to build an application with minimal configuration.
