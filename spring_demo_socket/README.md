@@ -50,20 +50,12 @@ Learn how to cache data in memory with Spring
 ```bash
 # hello.cache
 ```
-
-
 - [Producing a SOAP web service](https://spring.io/guides/gs/producing-web-service/)
 Learn how to create a SOAP-based web service with Spring.
 - [Consuming a SOAP web service](https://spring.io/guides/gs/consuming-web-service/)
 Learn how to create a client that consumes a WSDL-based service
 - [Spring Boot with Docker](https://spring.io/guides/gs/spring-boot-docker)
 Learn how to create a Docker container from a Spring Boot application with Maven or Gradle
-
-
-
-
-
-
 
 
 ## YARN
